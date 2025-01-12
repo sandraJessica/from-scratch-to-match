@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>From Scratch to Match</title>
+  </head>
+
+  <body>
+    <!-- Nav-Bar -->
+
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container px-4 py-2">
+          <a class="navbar-brand fw-bold" href="#"
+            ><img
+              src="./images/pawprint-svgrepo-com.svg"
+              alt="navbar brand"
+              height="30px"
+            />
+            From Scratch to Match</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Subscribtion</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="#footer" class="btn btn-outline-dark">Download</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Title -->
+    <section id="title">
+      <div class="gradient-background">
+        <div class="container col-xxl-8 px-4 py-2">
+          <div class="row flex-lg-row-reverse align-items-center g-5 pt-4 pb-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="./images/Edgar Allen Paw.png"
+                class="cat-img d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                loading="lazy"
+                width="400px"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                Meet new cats nearby and find the purr-fect match.
+              </h1>
+              <p class="lead">
+                Looking for the perfect playmate for your cat? Connect with
+                fellow cat lovers, arrange exciting playdates, and let your
+                feline friend enjoy new adventures. Matching whiskers has never
+                been easier!
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  type="button"
+                  class="title-btn btn btn-primary btn-lg px-4 me-md-2"
+                >
+                  Match meow
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img
+                src="./images/couple-of-cats-svgrepo-com.svg"
+                alt="cat couple icon"
+                width="30px"
+              />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Scratch or Match</h3>
+              <p>
+                Say goodbye to the "scratch" and hello to the "match"! Browse
+                profiles of potential playmates for your cat, and when both
+                owners agree, it’s a purr-fect match!
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img
+                src="./images/location-svgrepo-com.svg"
+                alt="location icon"
+                width="30px"
+              />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Cat Neighbours</h3>
+              <p>
+                Location-based matching helps you connect with nearby cats,
+                making it easy and convenient to arrange local playdates.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <img
+                src="./images/cat-in-black-silhouette-svgrepo-com.svg"
+                alt="cat icon"
+                width="30px"
+              />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Purr-sonality</h3>
+              <p>
+                Create a detailed profile for your cat, showcasing their unique
+                personality and preferences to help find the most compatible
+                playmates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <div class="card-wrapper">
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_1.jpg"
+                      class="img-fluid rounded-start"
+                      alt="woman with her cat"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Lea</h5>
+                      <p class="card-text">
+                        'From Scratch to Match' has been a game-changer for my
+                        cat! Finding the perfect playmate was so easy, and now
+                        Cleo has a buddy to keep her active and happy. Highly
+                        recommend it to any cat owner!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★★</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_2.jpg"
+                      class="img-fluid rounded-start"
+                      alt="woman with her cat"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Rebecca M.</h5>
+                      <p class="card-text">
+                        My cat has made a great new friend, and the app process
+                        was so smooth. It’s a fantastic way to connect with
+                        other cat owners!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★★</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <div class="card-wrapper">
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_3.jpg"
+                      class="img-fluid rounded-start"
+                      alt="woman with her cat"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Vivien S.</h5>
+                      <p class="card-text">
+                        Thanks to this app,' my cat finally found the perfect
+                        playmate! It was so easy to connect with other cat
+                        owners, and now Snowball has a new friend to share
+                        adventures with. Highly recommend!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★★</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_4.jpg"
+                      class="img-fluid rounded-start"
+                      alt="man with his cat"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Timothy</h5>
+                      <p class="card-text">
+                        Thanks to this app, my cat found the perfect playmate!
+                        Quick, easy and fun!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★☆</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <div class="card-wrapper">
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_5.jpg"
+                      class="img-fluid rounded-start"
+                      alt="woman with her cat"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Aurora</h5>
+                      <p class="card-text">
+                        This service helped my cat find a great playmate in no
+                        time! Simple and enjoyable!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★☆</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card card mb-3">
+                <div class="row g-0">
+                  <div class="image-wrapper col-md-4">
+                    <img
+                      src="./images/testimonial_cat_6.jpg"
+                      class="img-fluid rounded-start"
+                      alt="two cats"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Mr. Snuggles</h5>
+                      <p class="card-text">
+                        My new playmate was just a few clicks away! Fast and
+                        hassle-free! Meow!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary">★★★★★</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Testimonial 2 -->
+
+    <section class="testimonials two">
+      <div testimonials-container>
+        <div class="row my-2 p-2">
+          <div class="test-img col-lg-3 col-sm-12">
+            <img
+              src="./images/techcrunch.png"
+              alt="techcrunch logo"
+              height="40px"
+            />
+          </div>
+          <div class="test-img col-lg-3 col-sm-12">
+            <img
+              src="./images/mashable.png"
+              alt="mashable logo"
+              height="40px"
+            />
+          </div>
+          <div class="test-img col-lg-3 col-sm-12">
+            <img src="./images/tnw.png" alt="tnw logo" height="40px" />
+          </div>
+          <div class="test-img col-lg-3 col-sm-12">
+            <img
+              src="./images/bizinsider.png"
+              alt="business insider logo"
+              height="40px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <section id="pricing">
+        <div class="container">
+          <div class="pricing-header p-3 pb-md-4 mx-auto mt-5 text-center">
+            <h2 class="display-4 fw-normal">Pricing</h2>
+            <p class="fs-5 text-body-secondary">
+              Easy and budget-friendly plans for you and your cat.
+            </p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card-one card mb-4 rounded-3 shadow-sm">
+                <div class="card-header-one card-header py-3">
+                  <h4 class="my-0 fw-normal">Kitty Kickoff</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    $0<small class="text-body-secondary fw-light">/mo</small>
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Create your cat's profile</li>
+                    <li>Browse local matches</li>
+                    <li>One playdate per month</li>
+                    <li>Basic support</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="card-btn-one w-100 btn btn-lg btn-outline-dark"
+                  >
+                    Sign up for free
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-two card mb-4 rounded-3 shadow-sm">
+                <div class="card-header-two card-header py-3">
+                  <h4 class="my-0 fw-normal">Whisker Upgrade</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    $15<small class="text-body-secondary fw-light">/mo</small>
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Includes Kitty Kickoff features</li>
+                    <li>Unlimited profile browsing</li>
+                    <li>Up to five playdates monthly</li>
+                    <li>Priority support</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="card-btn-two w-100 btn btn-lg btn-dark"
+                  >
+                    Get started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card-three card mb-4 rounded-3 shadow-sm border-dark mb-5"
+              >
+                <div
+                  class="card-header-three card-header py-3 text-bg-dark border-dark"
+                >
+                  <h4 class="my-0 fw-normal">Pawsome Match</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    $29<small class="text-body-secondary fw-light">/mo</small>
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Includes Whisker Upgrade features</li>
+                    <li>Unlimited playdates</li>
+                    <li>Advanced profile options</li>
+                    <li>Access to exclusive events</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="card-btn-three w-100 btn btn-lg btn-dark"
+                  >
+                    Cat Elite Club
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <footer
+        class="footer-color d-flex flex-wrap justify-content-between align-items-center m-3 py-3 px-3 border-top mb-0"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © 2025 From Scratch to Match
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="./images/pawprint-svgrepo-com.svg"
+            alt="From Scratch to Match logo"
+            height="30px"
+          />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#title" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link px-2 text-body-secondary"
+              >Features</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link px-2 text-body-secondary"
+              >Subscribtion</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
